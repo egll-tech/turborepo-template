@@ -1,0 +1,44 @@
+# Print semicolons at the ends of statements
+semi: true
+
+# Use single quotes instead of double quotes
+singleQuote: true
+
+# Use trailing commas wherever possible (including function parameters)
+trailingComma: "all"
+
+# Include parentheses around a sole arrow function parameter
+arrowParens: "always"
+
+# Print spaces between brackets in object literals
+bracketSpacing: true
+
+# Control the line length that Prettier will wrap on
+printWidth: 100
+
+# Specify the number of spaces per indentation-level
+tabWidth: 2
+
+# Use tabs instead of spaces for indentation
+useTabs: false
+
+# Specify the line ending to use
+endOfLine: "lf"
+
+# Specify the global whitespace sensitivity for HTML files
+htmlWhitespaceSensitivity: "css"
+
+# Format embedded code if Prettier can automatically identify it
+embeddedLanguageFormatting: "auto"
+
+# Specify how to handle white space in HTML
+proseWrap: "preserve"
+
+# Include a special @format marker at the top of files specifying that the file has been formatted with Prettier
+requirePragma: false
+
+# Insert a special @format marker at the top of files specifying that the file has been formatted with Prettier
+insertPragma: false
+
+# Customize the parser to use for a particular language
+parser: "typescript"

@@ -1,0 +1,25 @@
+{
+  "name": "@repo/lib",
+  "version": "0.0.0",
+  "private": true,
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint . --max-warnings 0",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "test": "jest --detectOpenHandles"
+  },
+  "jest": {
+    "preset": "@repo/jest-presets/node"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "~20.14.9",
+    "eslint": "~8.57.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "tsup": "~8.0.2",
+    "typescript": "~5.3.3"
+  }
+}
